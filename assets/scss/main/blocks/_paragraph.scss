@@ -1,0 +1,23 @@
+.has-drop-cap {
+
+	.entry-content & {
+		text-indent: 0;
+	}
+
+	&:not(:focus) {
+
+		&:first-letter {
+			margin: 0 .1em 0 2rem;
+			font-size: 1.618em * 2;
+			font-weight: 400;
+			font-style: inherit;
+			line-height: 1 - .382 / 4;
+		}
+
+		&::after {
+			padding: 0;
+		}
+
+	}
+
+}

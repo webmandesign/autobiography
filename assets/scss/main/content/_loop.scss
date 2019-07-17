@@ -1,0 +1,24 @@
+.posts {
+
+	.entry {
+
+		+ .entry {
+			margin-top: 15vh;
+		}
+
+		&-content {
+			display: none;
+		}
+
+		&-meta,
+		&-footer {
+			margin-bottom: 0;
+		}
+
+	}
+
+}
+
+.link-more {
+	display: none;
+}

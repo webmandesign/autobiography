@@ -1,0 +1,13 @@
+.button,
+.wp-block-button__link,
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+	padding: .618em 1.382em;
+	text-transform: uppercase;
+	letter-spacing: .05em;
+	background-color: var(--color-accent);
+	color: var(--color-accent-text);
+	border: 2px solid transparent;
+}

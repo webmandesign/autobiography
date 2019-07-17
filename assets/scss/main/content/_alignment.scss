@@ -1,0 +1,41 @@
+.alignleft {
+	float: left;
+	margin-right: 1em;
+	margin-bottom: 1em;
+}
+
+.alignright {
+	float: right;
+	margin-left: 1em;
+	margin-bottom: 1em;
+}
+
+.aligncenter {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.alignnone {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.alignwide {
+	width: auto;
+	margin-top: 1.618em;
+	margin-bottom: 1.618em;
+
+	@media (min-width: 900px) {
+		margin-left: -10vw;
+		margin-right: -10vw;
+	}
+
+}
+
+.alignfull {
+	width: 100vw;
+	max-width: 100vw;
+	margin-left: calc( 50% - 50vw );
+	margin-top: 3.618em;
+	margin-bottom: 3.618em;
+}

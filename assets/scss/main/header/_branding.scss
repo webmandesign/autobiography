@@ -1,0 +1,15 @@
+.site-title {
+	margin: 0;
+	text-transform: uppercase;
+	letter-spacing: .15em;
+
+	a {
+		text-decoration: none;
+		color: inherit;
+	}
+
+}
+
+.site-description {
+	@extend .screen-reader-text;
+}

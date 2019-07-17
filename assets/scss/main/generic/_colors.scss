@@ -1,0 +1,11 @@
+body {
+	background-color: var(--color-body-background);
+	color: var(--color-body-text);
+	border-color: var(--color-body-border);
+}
+
+*,
+*::after,
+*::before {
+	border-color: inherit;
+}

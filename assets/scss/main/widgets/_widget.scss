@@ -1,0 +1,12 @@
+.widget {
+
+	&title,
+	&-title {
+		font-weight: 300;
+	}
+
+	.error-404 & {
+		margin-top: var(--space-vertical-small);
+	}
+
+}

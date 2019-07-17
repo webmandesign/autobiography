@@ -1,0 +1,17 @@
+.search-form {
+	display: flex;
+	width: 32rem;
+	max-width: 100%;
+
+	label {
+		flex: 1;
+	}
+
+}
+
+.search-field {
+	width: 100%;
+	border-color: transparent;
+	border-bottom-color: inherit;
+	border-radius: 0;
+}

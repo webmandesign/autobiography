@@ -1,0 +1,57 @@
+html {
+
+	@media (min-width: 600px) {
+		font-size: calc( 100% + ( ( var(--font-size-generic) - 100% ) / 3 ) );
+	}
+
+	@media (min-width: 900px) {
+		font-size: calc( 100% + ( 2 * ( var(--font-size-generic) - 100% ) / 3 ) );
+	}
+
+	@media (min-width: 1200px) {
+		font-size: var(--font-size-generic);
+	}
+
+}
+
+h1 {
+	font-size: var(--font-size-h1);
+}
+
+h2 {
+	font-size: var(--font-size-h2);
+}
+
+h3 {
+	font-size: var(--font-size-h3);
+}
+
+h4 {
+	font-size: var(--font-size-h4);
+}
+
+pre, code, kbd, tt, var {
+	font-size: var(--font-size-pre);
+}
+
+.site-header {
+	font-size: var(--font-size-header);
+}
+
+.site-title {
+	font-size: var(--font-size-site-title);
+}
+
+.entry-title {
+	font-size: var(--font-size-h1);
+}
+
+.entry-meta,
+.entry-footer,
+.nav-links {
+	font-size: var(--font-size-entry-meta);
+}
+
+.site-footer {
+	font-size: var(--font-size-footer);
+}
