@@ -1,4 +1,4 @@
-=== Autobiography ===
+=== Memories ===
 
 Contributors: webmandesign
 Tags: translation-ready, blog

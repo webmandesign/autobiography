@@ -16,8 +16,8 @@
 			<div class="entry-meta">
 				<?php
 
-				autobiography_posted_on();
-				autobiography_posted_by();
+				memories_posted_on();
+				memories_posted_by();
 
 				?>
 			</div>
@@ -39,7 +39,7 @@
 		}
 
 		wp_link_pages( array(
-			'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'autobiography' ),
+			'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'memories' ),
 			'after'  => '</div>',
 		) );
 
@@ -48,7 +48,7 @@
 
 	<?php if ( is_singular() ) : ?>
 	<footer class="entry-footer">
-		<?php autobiography_entry_footer(); ?>
+		<?php memories_entry_footer(); ?>
 	</footer>
 	<?php endif; ?>
 

@@ -11,8 +11,8 @@ while ( have_posts() ) :
 		'post-navigation',
 		'post-navigation alignwide',
 		get_the_post_navigation( array(
-			'prev_text' => '<span class="nav-label">' . esc_html_x( 'Previous:', 'Entry, post.', 'autobiography' ) . ' </span>%title',
-			'next_text' => '<span class="nav-label">' . esc_html_x( 'Next:', 'Entry, post.', 'autobiography' ) . ' </span>%title',
+			'prev_text' => '<span class="nav-label">' . esc_html_x( 'Previous:', 'Entry, post.', 'memories' ) . ' </span>%title',
+			'next_text' => '<span class="nav-label">' . esc_html_x( 'Next:', 'Entry, post.', 'memories' ) . ' </span>%title',
 		) )
 	);
 

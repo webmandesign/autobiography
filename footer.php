@@ -7,16 +7,16 @@
 
 	<div class="site-info">
 
-		<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'autobiography' ) ); ?>"><?php
+		<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'memories' ) ); ?>"><?php
 			/* translators: %s: CMS name, i.e. WordPress. */
-			printf( esc_html__( 'Proudly powered by %s', 'autobiography' ), 'WordPress' );
+			printf( esc_html__( 'Proudly powered by %s', 'memories' ), 'WordPress' );
 		?></a>
 
 		<span class="sep"> | </span>
 
 		<?php
 		/* translators: 1: Theme name, 2: Theme author. */
-		printf( esc_html__( 'Theme: %1$s by %2$s.', 'autobiography' ), 'autobiography', '<a href="https://www.webmandesign.eu">WebMan Design, Oliver Juhas</a>' );
+		printf( esc_html__( 'Theme: %1$s by %2$s.', 'memories' ), 'memories', '<a href="https://www.webmandesign.eu">WebMan Design, Oliver Juhas</a>' );
 		?>
 
 	</div>

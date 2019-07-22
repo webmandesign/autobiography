@@ -14,7 +14,7 @@
 
 <body <?php body_class(); ?>>
 
-<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'autobiography' ); ?></a>
+<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'memories' ); ?></a>
 
 <header id="masthead" class="site-header">
 
@@ -31,11 +31,11 @@
 			<?php
 		endif;
 
-		$autobiography_description = get_bloginfo( 'description', 'display' );
+		$memories_description = get_bloginfo( 'description', 'display' );
 
-		if ( $autobiography_description || is_customize_preview() ) :
+		if ( $memories_description || is_customize_preview() ) :
 			?>
-			<p class="site-description"><?php echo $autobiography_description; /* WPCS: xss ok. */ ?></p>
+			<p class="site-description"><?php echo $memories_description; /* WPCS: xss ok. */ ?></p>
 			<?php
 		endif;
 
